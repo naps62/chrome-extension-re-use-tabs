@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "re-use tabs",
+  "version": "1.0",
+
+  "description": "Keep your browser tidy by re-using tabs.",
+  "author": "Miguel Palhas",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Re-use tabs"
+  },
+
+  "background": {
+    "scripts": ["re-use-tabs.js"]
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
